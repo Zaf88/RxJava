@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                 {
                     Log.d("RxJava3", "error")
                 },
-                { Log.d("RxJava3", "massage")}
+                { Log.d("RxJava3", "message")}
             )
 
 
@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
             )
 
         lessonButton.setOnClickListener {
-            startActivity(Intent(this, LessonExsActivity::class.java));
+            startActivity(Intent(this, LessonActivity::class.java));
         }
         subjectExsButton.setOnClickListener {
             startActivity(Intent(this, SubjectsActivity::class.java));

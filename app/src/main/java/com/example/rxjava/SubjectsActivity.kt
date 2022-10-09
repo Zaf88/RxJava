@@ -76,9 +76,7 @@ class SubjectsActivity : AppCompatActivity() {
         source.onNext(1)
         source.onNext(2)
         source.onNext(3)
-
         source.subscribe(getSecondObserver())
-
         source.onNext(4)
         source.onComplete()
     }

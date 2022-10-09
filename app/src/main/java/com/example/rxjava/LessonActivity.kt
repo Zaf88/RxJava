@@ -11,10 +11,10 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 
-class LessonExsActivity : AppCompatActivity() {
+class LessonActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lesson_exs_activity)
+        setContentView(R.layout.activity_lesson_activity)
 
 
         val someObservable = Observable.just(1, 1, 1, 4, 5, 6, 7, 8, 9, 10)
